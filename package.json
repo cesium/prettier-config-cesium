@@ -1,0 +1,27 @@
+{
+  "name": "@cesiuminho/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier configuration used bu CeSIUM.",
+  "main": "prettier.config.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesium/prettier-config-cesium.git"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config"
+  ],
+  "author": "CeSIUM cesium@di.uminho.pt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesium/prettier-config-cesium/issues"
+  },
+  "homepage": "https://github.com/cesium/prettier-config-cesium#readme",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
