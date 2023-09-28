@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/cesium/prettier-config-cesium#readme",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "semantic-release": "semantic-release --branches main"
   },
   "dependencies": {
     "prettier": "3.0.3",
@@ -31,5 +32,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^22.0.5"
   }
 }
